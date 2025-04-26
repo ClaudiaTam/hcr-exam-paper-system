@@ -1,1 +1,6 @@
-
+model_paths:
+  digitnet: checkpoints/combined_cnn_epoch_14_test-accuracy_99.5865_test-loss_0.0144
+  letternet: checkpoints/capitals_cnn_epoch_15_test-accuracy_97.7364_test-loss_0.0015.pt
+  binarynet: checkpoints/binary_cnn_epoch_54_test-accuracy_99.9306_test-loss_0.0046.pt
+output_dir: outputs/
+test_pdfs: data/test_pdfs/
